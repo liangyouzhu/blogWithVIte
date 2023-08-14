@@ -6,7 +6,7 @@ hero:
   image:
     src: /logo.png
     alt: 火之意志
-  name: 前端弹药库
+  name: 前端の弹药库
   text: 
   tagline: 基于 VitePress 的个人前端导航页面模板
 
