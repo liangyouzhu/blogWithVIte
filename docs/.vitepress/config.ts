@@ -7,7 +7,8 @@ export default defineConfig({
   base: process.env.APP_BASE_PATH || '/',
 
   lang: 'zh-CN',
-  title: '七小队',
+  title: '火の意志',
+  titleTemplate: '%s - 火の意志',
   description: '前端武器库，日积月累，可塑星河！',
   head,
 
@@ -19,12 +20,19 @@ export default defineConfig({
     lineNumbers: true // 代码块显示行号
   },
 
+
+
+
   /* 主题配置 */
   themeConfig: {
     i18nRouting: false,
-
     logo: '/logo.png',
-
+    algolia: {
+      appId: 'QFZLWPCGNT', // App ID
+      apiKey: 'dab30e5c633dad647ec550f3d6bd70dd', // API Key
+      indexName: '火の意志', // 需要替换
+      placeholder: '请输入关键词',
+    },
     nav,
     sidebar,
     /* 右侧大纲配置 */
