@@ -1,12 +1,12 @@
 {
   "name": "vitepress-nav-template",
   "version": "1.0.0",
-  "description": "基于 VitePress 打造个人前端导航网站",
+  "description": "记录学习内容,踩坑记录",
   "private": true,
   "scripts": {
-    "dev": "vitepress dev docs --port=8732",
+    "dev": "vitepress dev docs --port=1234",
     "build": "vitepress build docs",
-    "build:github": "cross-env APP_BASE_PATH=/vitepress-nav-template/ vitepress build docs",
+    "build:github": "cross-env APP_BASE_PATH=/blogWithVIte/ vitepress build docs",
     "prepare": "husky install",
     "format": "prettier --write ."
   },

@@ -6,9 +6,9 @@ hero:
   image:
     src: /logo.png
     alt: 火之意志
-  name: 前端弹药库
-  text: 
-  tagline: 基于 VitePress 的个人前端导航页面模板
+  name: 前端手里剑
+  text:
+  tagline: 一个菜鸟前端,热爱火影忍者,热爱前端,热爱生活
 
   actions:
     - text: 一些好玩的
@@ -43,11 +43,10 @@ features:
     link: /fun/
     linkText: 踩坑记录
   - icon: 💻
-    title: 吾志所向，一往无前。
-    details: '<small class="bottom-small">一个想躺平的小开发</small>'
+    title: 踏足山巅
+    details: '<small class="bottom-small">咬定青山不放松,理解藏在bug中</small>'
     link: /fun/
 ---
-
 
 <style>
 /*爱的魔力转圈圈*/
