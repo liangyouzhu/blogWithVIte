@@ -6,7 +6,7 @@ hero:
   image:
     src: /logo.png
     alt: 火之意志
-  name: 前端手里剑
+  name: 前端の手里剑
   text:
   tagline: 一个菜鸟前端,热爱火影忍者,热爱前端,热爱生活
 
